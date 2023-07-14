@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
+  <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
@@ -13,11 +13,15 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="../css/styles.css" rel="stylesheet" />
-    </head>
+        <link href="../css/styles.css" rel="stylesheet" />    </head>
     <body id="page-top">
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Welcome to My Portfolio</h1>
+            <p>I'm a web developer with a passion for creating beautiful, user-friendly websites.</p>
+        </section>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Jonathan Rocha</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/img/profile.jpg" alt="..." /></span>
@@ -37,7 +41,7 @@
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->
-            <section class="resume-section" id="about">
+ <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
                         Jonathan
@@ -55,6 +59,16 @@
                         <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Portfolio Section -->
+            <section id="portfolio">
+                <h2>My Work</h2>
+                <article>
+                    <h3>Project 1</h3>
+                    <p>Description of project 1.</p>
+                </article>
+                <!-- Add more articles for each project -->
             </section>
             <hr class="m-0" />
             <!-- Experience-->
@@ -94,6 +108,16 @@
                         <div class="flex-shrink-0"><span class="text-primary">August 2012 - May 2016</span></div>
                     </div>
                 </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Testimonials Section -->
+            <section id="testimonials">
+                <h2>Testimonials</h2>
+                <blockquote>
+                    <p>"This is a testimonial."</p>
+                    <cite>- Person 1</cite>
+                </blockquote>
+                <!-- Add more blockquotes for each testimonial -->
             </section>
             <hr class="m-0" />
             <!-- Education-->
@@ -165,6 +189,28 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>You can reach me at <a href="mailto:jon.rocha@outlook.com">jon.rocha@outlook.com</a>.</p>
+                <!-- Contact Form -->
+                <form action="https://formspree.io/your@email" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="_replyto">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2023 Jonathan Rocha</p>
+                <!-- Add any other information you want in the footer -->
+            </footer>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
