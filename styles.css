@@ -92,31 +92,31 @@ section#testimonials {
   padding: 20px; /* Adjust this value to your liking */
 }
 
-#contact {
+section#contact {
     padding: 20px;
 }
 
-#contact {
+section#contact {
     padding: 20px;
     display: grid;
     gap: 10px;
 }
 
-#contact label {
+section#contact label {
     display: inline-block;
     margin-bottom: 5px;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact textarea {
+section#contact input[type="text"],
+section#contact input[type="email"],
+section#contact textarea {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-#contact input[type="submit"] {
+section#contact input[type="submit"] {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -125,7 +125,7 @@ section#testimonials {
     cursor: pointer;
 }
 
-#contact input[type="submit"]:hover {
+section#contact input[type="submit"]:hover {
     background-color: #45a049;
 }
 
