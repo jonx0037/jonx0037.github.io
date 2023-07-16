@@ -80,6 +80,14 @@
   --bs-heading-color: #f8f9fa; /* change this to your preferred heading color */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #C0C0C0; /* replace with the color you choose */
+    background-color: #1a1a1a;
+}
+
 *,
 *::before,
 *::after {
