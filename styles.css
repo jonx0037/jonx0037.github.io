@@ -92,6 +92,10 @@ section#testimonials {
   padding: 20px; /* Adjust this value to your liking */
 }
 
+#contact {
+    padding: 20px;
+}
+
 *,
 *::before,
 *::after {
