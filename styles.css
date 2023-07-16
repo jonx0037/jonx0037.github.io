@@ -10971,7 +10971,7 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
-.resume-section {
+main.resume-section {
     padding-top: 60px; /* adjust as needed */
 }
 @media (min-width: 768px) {
