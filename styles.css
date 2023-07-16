@@ -6649,6 +6649,21 @@ textarea.form-control-lg {
     -webkit-mask-position: -200% 0%;
             mask-position: -200% 0%;
   }
+ 
+  @keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 2s;
+}
 }
 .clearfix::after {
   display: block;
@@ -10956,7 +10971,9 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
-
+.resume-section {
+    padding-top: 60px; /* adjust as needed */
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
