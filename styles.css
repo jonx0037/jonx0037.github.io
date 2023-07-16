@@ -96,6 +96,39 @@ section#testimonials {
     padding: 20px;
 }
 
+#contact {
+    padding: 20px;
+    display: grid;
+    gap: 10px;
+}
+
+#contact label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
 *,
 *::before,
 *::after {
