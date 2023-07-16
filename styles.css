@@ -61,7 +61,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #f5f5f5; /* light gray */
+  --bs-body-color: #f8f9fa; /* change this to your preferred body text color */
   --bs-body-bg: #282828; /* dark gray */
   --bs-border-width: 1px;
   --bs-border-style: solid;
@@ -77,6 +77,7 @@
   --bs-link-hover-color: #2980b9; /* darker blue */
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+  --bs-heading-color: #f8f9fa; /* change this to your preferred heading color */
 }
 
 *,
