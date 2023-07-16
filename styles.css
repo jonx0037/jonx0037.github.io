@@ -476,6 +476,10 @@ iframe {
   border: 0;
 }
 
+#portfolio {
+  padding: 10px 20px 30px 40px; /* adjust as needed */
+}
+
 summary {
   display: list-item;
   cursor: pointer;
