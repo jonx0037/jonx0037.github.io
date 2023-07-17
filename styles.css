@@ -2054,6 +2054,13 @@ progress {
 .form-label {
   margin-bottom: 0.5rem;
 }
+.form-element {
+    display: flex;
+    flex-direction: column; /* this was flex-direction: row; */
+    justify-content: space-between;
+    align-items: flex-start; /* this was align-items: center; */
+    margin-bottom: 20px;
+}
 
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
