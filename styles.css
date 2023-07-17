@@ -145,7 +145,7 @@ section#contact textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    margin-bottom: 10px;  /* Add this line */
+    margin-bottom: 20px;  /* Add this line */
 }
 
 section#contact input[type="submit"] {
