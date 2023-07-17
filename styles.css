@@ -145,7 +145,7 @@ section#contact input[type="text"],
 section#contact input[type="email"],
 section#contact textarea {
     width: 100%;
-    max-width: 500px;  /* Adjust this value as needed */
+    max-width: 750px;  /* Adjust this value as needed */
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
