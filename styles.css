@@ -128,10 +128,6 @@ section#testimonials {
 
 section#contact {
     padding: 20px;
-}
-
-section#contact {
-    padding: 20px;
     display: grid;
     gap: 10px;
 }
@@ -149,6 +145,7 @@ section#contact textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    margin-bottom: 10px;  /* Add this line */
 }
 
 section#contact input[type="submit"] {
@@ -163,7 +160,6 @@ section#contact input[type="submit"] {
 section#contact input[type="submit"]:hover {
     background-color: #45a049;
 }
-
 *,
 *::before,
 *::after {
