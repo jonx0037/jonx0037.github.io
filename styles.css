@@ -84,7 +84,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: ##8ad5f5; /* replace with the color you choose */
+    color: ##8498BF; /* replace with the color you choose */
     background-color: #f0f0f0;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .navbar a {
-    color: ##8ad5f5;
+    color: ##8498BF;
 }
 
 .navbar a:hover {
@@ -102,12 +102,12 @@ body {
 
 footer {
     background-color: #1a2227;
-    color: ##8ad5f5;
+    color: ##8498BF;
 }
 
 button {
     background-color: #1a2227;
-    color: ##8ad5f5;
+    color: ##8498BF;
 }
 
 button:hover {
