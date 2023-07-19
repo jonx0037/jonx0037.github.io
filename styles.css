@@ -84,7 +84,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: ##8498BF; /* replace with the color you choose */
+    color: ##8ad5f5; /* replace with the color you choose */
     background-color: #f0f0f0;
 }
 
@@ -93,7 +93,7 @@ body {
 }
 
 .navbar a {
-    color: ##8498BF;
+    color: ##8ad5f5;
 }
 
 .navbar a:hover {
@@ -102,12 +102,12 @@ body {
 
 footer {
     background-color: #1a2227;
-    color: ##8498BF;
+    color: ##8ad5f5;
 }
 
 button {
     background-color: #1a2227;
-    color: ##8498BF;
+    color: ##8ad5f5;
 }
 
 button:hover {
@@ -199,7 +199,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
-  color: #8498BF;
+  color: #8ad5f5;
 }
 
 h1, .h1 {
