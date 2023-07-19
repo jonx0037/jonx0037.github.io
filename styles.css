@@ -3880,7 +3880,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: #a8dadc; /* light blue */
+  --bs-nav-link-color: #88c5ec; /* light blue */
   --bs-nav-link-hover-color: #b6bcc2; /* change this to your preferred hover color */
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
