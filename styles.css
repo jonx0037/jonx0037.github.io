@@ -89,7 +89,7 @@ body {
 }
 
 .navbar {
-    background-color: #2F4858;
+    background-color: #0a5f95;
 }
 
 .navbar a {
@@ -101,12 +101,12 @@ body {
 }
 
 footer {
-    background-color: #2F4858;
+    background-color: #0a5f95;
     color: #F6AE2D;
 }
 
 button {
-    background-color: #2F4858;
+    background-color: #0a5f95;
     color: #F6AE2D;
 }
 
@@ -123,7 +123,7 @@ p.notification {
 }
 
 section#testimonials {
-  padding: 20px; /* Adjust this value to your liking */
+  padding: 50px; /* Adjust this value to your liking */
 }
 
 section#contact {
@@ -3826,7 +3826,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: #2F4858; 
+  --bs-navbar-color: #0a5f95; 
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
