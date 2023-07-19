@@ -89,7 +89,7 @@ body {
 }
 
 .navbar {
-    background-color: #0a5f95;
+    background-color: #1a2227;
 }
 
 .navbar a {
@@ -101,12 +101,12 @@ body {
 }
 
 footer {
-    background-color: #0a5f95;
+    background-color: #1a2227;
     color: #F6AE2D;
 }
 
 button {
-    background-color: #0a5f95;
+    background-color: #1a2227;
     color: #F6AE2D;
 }
 
@@ -3826,7 +3826,7 @@ textarea.form-control-lg {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: #0a5f95; 
+  --bs-navbar-color: #1a2227; 
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
