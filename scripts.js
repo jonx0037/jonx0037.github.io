@@ -31,4 +31,82 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-});
+	// Smooth scroll function
+	const smoothScroll = () => {
+
+	  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+		anchor.addEventListener('click', function(e) {
+		  e.preventDefault();
+		  document.querySelector(this.getAttribute('href')).scrollIntoView({
+			behavior: 'smooth' 
+		  });
+		});
+	  });
+
+	}
+
+	// Modal function 
+	const initModals = () => {
+
+	  const portfolioImages = document.querySelectorAll('.portfolio img');
+
+	  portfolioImages.forEach(image => {
+		image.addEventListener('click', () => {
+		  // Get image data
+		  // Show modal
+		});
+	  });
+
+	}
+
+	// Form validation function
+	const validateForm = () => {
+
+		const form = document.querySelector('#contact-form');
+
+		form.addEventListener('submit', e => {
+		  if (!form.elements.name.value) {
+			e.preventDefault();
+			alert('Please enter your name');
+		  }
+  
+		  // Check other fields
+  
+		  if(!formIsValid) {
+			e.preventDefault();
+		  }
+	})
+
+	// Fade in on load
+	document.addEventListener('DOMContentLoaded', () => {
+	  document.querySelector('body').style.opacity = 0;
+  
+	  window.setTimeout(() => {
+		document.querySelector('body').style.opacity = 1;  
+	  }, 500)
+	})
+
+	// Fade in function
+	const fadeIn = () => {
+
+	  document.querySelector('body').style.opacity = 0;
+  
+	  setTimeout(() => {
+		document.querySelector('body').style.opacity = 1;
+	  }, 500); 
+
+	}
+
+
+	// Initialize
+	document.addEventListener('DOMContentLoaded', () => {
+
+	  smoothScroll();
+
+	  initModals();
+
+	  validateForm();
+
+	  fadeIn();
+
+	});
