@@ -13,71 +13,72 @@
  */
 :root {
   /* Colors */
-  --bs-blue: #2552D9;        // variable for the blue color
-  --bs-indigo: #2964D9;      // variable for the indigo color
-  --bs-purple: #6f42c1;      // variable for the purple color
-  --bs-pink: #e83e8c;        // variable for the pink color
-  --bs-red: #dc3545;         // variable for the red color
-  --bs-orange: #F2B29B;      // variable for the orange color
-  --bs-yellow: #ffc107;      // variable for the yellow color
-  --bs-green: #28a745;       // variable for the green color
-  --bs-teal: #0487D9;        // variable for the teal color
-  --bs-cyan: #91C5F2;        // variable for the cyan color
-  --bs-black: #000;          // variable for the black color
-  --bs-white: #fff;          // variable for the white color
-  
+  --bs-blue: #2552D9; // variable for the blue color
+  --bs-indigo: #2964D9; // variable for the indigo color
+  --bs-purple: #6f42c1; // variable for the purple color
+  --bs-pink: #e83e8c; // variable for the pink color
+  --bs-red: #dc3545; // variable for the red color
+  --bs-orange: #F2B29B; // variable for the orange color
+  --bs-yellow: #ffc107; // variable for the yellow color
+  --bs-green: #28a745; // variable for the green color
+  --bs-teal: #0487D9; // variable for the teal color
+  --bs-cyan: #91C5F2; // variable for the cyan color
+  --bs-black: #000; // variable for the black color
+  --bs-white: #fff; // variable for the white color
+
   /* Shades of gray */
-  --bs-gray: #b6bcc2;        // variable for the gray color
-  --bs-gray-dark: #343a40;   // variable for the dark gray color
-  --bs-gray-100: #f8f9fa;    // variable for the light gray color (shade 100)
-  --bs-gray-200: #e9ecef;    // variable for the light gray color (shade 200)
-  --bs-gray-300: #dee2e6;    // variable for the light gray color (shade 300)
-  --bs-gray-400: #ced4da;    // variable for the light gray color (shade 400)
-  --bs-gray-500: #adb5bd;    // variable for the light gray color (shade 500)
-  --bs-gray-600: #b6bcc2;    // variable for the light gray color (shade 600)
-  --bs-gray-700: #495057;    // variable for the dark gray color (shade 700)
-  --bs-gray-800: #343a40;    // variable for the dark gray color (shade 800)
-  --bs-gray-900: #212529;    // variable for the dark gray color (shade 900)
+  --bs-gray: #b6bcc2; // variable for the gray color
+  --bs-gray-dark: #343a40; // variable for the dark gray color
+  --bs-gray-100: #f8f9fa; // variable for the light gray color (shade 100)
+  --bs-gray-200: #e9ecef; // variable for the light gray color (shade 200)
+  --bs-gray-300: #dee2e6; // variable for the light gray color (shade 300)
+  --bs-gray-400: #ced4da; // variable for the light gray color (shade 400)
+  --bs-gray-500: #adb5bd; // variable for the light gray color (shade 500)
+  --bs-gray-600: #b6bcc2; // variable for the light gray color (shade 600)
+  --bs-gray-700: #495057; // variable for the dark gray color (shade 700)
+  --bs-gray-800: #343a40; // variable for the dark gray color (shade 800)
+  --bs-gray-900: #212529; // variable for the dark gray color (shade 900)
 
   /* Other colors */
-  --bs-primary: #007bff;     // variable for the primary color
-  --bs-secondary: #b6bcc2;   // variable for the secondary color
-  --bs-success: #28a745;     // variable for the success color
-  --bs-info: #17a2b8;        // variable for the info color
-  --bs-warning: #ffc107;     // variable for the warning color
-  --bs-danger: #dc3545;      // variable for the danger color
-  --bs-light: #f8f9fa;       // variable for the light color
-  --bs-dark: #343a40;        // variable for the dark color
+  --bs-primary: #007bff; // variable for the primary color
+  --bs-secondary: #b6bcc2; // variable for the secondary color
+  --bs-success: #28a745; // variable for the success color
+  --bs-info: #17a2b8; // variable for the info color
+  --bs-warning: #ffc107; // variable for the warning color
+  --bs-danger: #dc3545; // variable for the danger color
+  --bs-light: #f8f9fa; // variable for the light color
+  --bs-dark: #343a40; // variable for the dark color
 
   /* RGB values */
-  --bs-primary-rgb: #3498db;       // variable for the primary color in RGB format
-  --bs-secondary-rgb: 108, 117, 125;   // variable for the secondary color in RGB format
-  --bs-success-rgb: 25, 135, 84;       // variable for the success color in RGB format
-  --bs-info-rgb: 13, 202, 240;         // variable for the info color in RGB format
-  --bs-warning-rgb: 255, 193, 7;       // variable for the warning color in RGB format
-  --bs-danger-rgb: 220, 53, 69;        // variable for the danger color in RGB format
-  --bs-light-rgb: 248, 249, 250;       // variable for the light color in RGB format
-  --bs-dark-rgb: 33, 37, 41;           // variable for the dark color in RGB format
-  --bs-white-rgb: 255, 255, 255;       // variable for the white color in RGB format
-  --bs-black-rgb: 0, 0, 0;             // variable for the black color in RGB format
+  --bs-primary-rgb: #3498db; // variable for the primary color in RGB format
+  --bs-secondary-rgb: 108, 117, 125; // variable for the secondary color in RGB format
+  --bs-success-rgb: 25, 135, 84; // variable for the success color in RGB format
+  --bs-info-rgb: 13, 202, 240; // variable for the info color in RGB format
+  --bs-warning-rgb: 255, 193, 7; // variable for the warning color in RGB format
+  --bs-danger-rgb: 220, 53, 69; // variable for the danger color in RGB format
+  --bs-light-rgb: 248, 249, 250; // variable for the light color in RGB format
+  --bs-dark-rgb: 33, 37, 41; // variable for the dark color in RGB format
+  --bs-white-rgb: 255, 255, 255; // variable for the white color in RGB format
+  --bs-black-rgb: 0, 0, 0; // variable for the black color in RGB format
 
   /* Font styles */
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";     // variable for the sans-serif font style
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;    // variable for the monospace font style
-  
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; // variable for the sans-serif font style
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; // variable for the monospace font style
+
   /* Other settings */
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));    // variable for the gradient
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;   // variable for the font family
-  --bs-body-font-size: 1rem;     // variable for the font size
-  --bs-body-font-weight: 400;    // variable for the font weight
-  --bs-body-line-height: 1.5;    // variable for the line height
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0)); // variable for the gradient
+  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; // variable for the font family
+  --bs-body-font-size: 1rem; // variable for the font size
+  --bs-body-font-weight: 400; // variable for the font weight
+  --bs-body-line-height: 1.5; // variable for the line height
 }
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #8498BF;
-  background-color: #f0f0f0;
+  color: #F8F8F8;
+  background-color: #333333;
 }
 
 .hero-section {
@@ -86,17 +87,18 @@ body {
   background-position: center;
 }
 
-.navbar, footer {
+.navbar,
+footer {
   background-color: #1a2227;
   color: #8498BF;
 }
 
 .navbar a {
-  color: #8498BF;
+  color: #8498bf;
 }
 
 .navbar a:hover {
-  color: #33658A;
+  color: #33658a;
 }
 
 button {
@@ -108,7 +110,8 @@ button:hover {
   background-color: #33658A;
 }
 
-a.special, p.notification {
+a.special,
+p.notification {
   color: #F26419;
 }
 
@@ -150,6 +153,7 @@ section#contact input[type="submit"] {
 section#contact input[type="submit"]:hover {
   background-color: #45a049;
 }
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -486,11 +490,16 @@ select:disabled {
 button[type="button"],
 [type="reset"],
 [type="submit"] {
-  appearance: button; /* Standard syntax */
-  -moz-appearance: button; /* Mozilla Firefox prefix */
-  -webkit-appearance: button; /* WebKit-based browsers prefix */
-  -ms-appearance: button; /* Microsoft Edge prefix */
-  -o-appearance: button; /* Opera prefix */
+  appearance: button;
+  /* Standard syntax */
+  -moz-appearance: button;
+  /* Mozilla Firefox prefix */
+  -webkit-appearance: button;
+  /* WebKit-based browsers prefix */
+  -ms-appearance: button;
+  /* Microsoft Edge prefix */
+  -o-appearance: button;
+  /* Opera prefix */
 }
 
 button:not(:disabled),
