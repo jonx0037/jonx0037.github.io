@@ -73,14 +73,34 @@
   --bs-body-line-height: 1.5; // variable for the line height
 }
 
-body {
-  font-family: var(--bs-font-sans-serif); /* Use the sans-serif font style */
-  margin: 0;
-  padding: 0;
-  color: #F8F8F8;
-  background-color: #333333;
+body,
+button {
+  color: #F5F5F5;
+  background-color: #007bff;
 }
 
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+a,
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+button:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+#hero,
 .hero-section {
   background-image: url("assets/images/Abstract-Dark-Background-4.png");
   background-size: cover;
@@ -93,21 +113,14 @@ footer {
   color: #8498BF;
 }
 
-.navbar a {
+.navbar a,
+.navbar a:hover {
   color: #8498bf;
 }
 
-.navbar a:hover {
-  color: #33658a;
-}
-
-button {
-  background-color: #1a2227;
-  color: #8498BF;
-}
-
+button,
 button:hover {
-  background-color: #33658A;
+  color: #F5F5F5;
 }
 
 a.special,
