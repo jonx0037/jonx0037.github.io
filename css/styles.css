@@ -88,6 +88,12 @@ body {
     background-color: #f0f0f0;
 }
 
+.hero-section {
+    background-image: url("/assets/images/CoolJon-french-impressionism.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .navbar {
     background-color: #1a2227;
 }
