@@ -12,97 +12,83 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #2552D9;
-  --bs-indigo: #2964D9;
-  --bs-purple: #6f42c1;
-  --bs-pink: #e83e8c;
-  --bs-red: #dc3545;
-  --bs-orange: #F2B29B;
-  --bs-yellow: #ffc107;
-  --bs-green: #28a745;
-  --bs-teal: #0487D9;
-  --bs-cyan: #91C5F2;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #b6bcc2;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #b6bcc2;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #007bff;
-  --bs-secondary: #b6bcc2;
-  --bs-success: #28a745;
-  --bs-info: #17a2b8;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #343a40;
-  --bs-primary-rgb: #3498db;
-  --bs-secondary-rgb: 108, 117, 125;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #f8f9fa;
-  /* change this to your preferred body text color */
-  --bs-body-bg: #282828;
-  /* dark gray */
-  --bs-border-width: 1px;
-  --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.375rem;
-  --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
-  --bs-border-radius-pill: 50rem;
-  --bs-link-color: #3498db;
-  /* light blue */
-  --bs-link-hover-color: #2980b9;
-  /* darker blue */
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
-  --bs-heading-color: #f8f9fa;
-  /* change this to your preferred heading color */
-}
+  /* Colors */
+  --bs-blue: #2552D9;        // variable for the blue color
+  --bs-indigo: #2964D9;      // variable for the indigo color
+  --bs-purple: #6f42c1;      // variable for the purple color
+  --bs-pink: #e83e8c;        // variable for the pink color
+  --bs-red: #dc3545;         // variable for the red color
+  --bs-orange: #F2B29B;      // variable for the orange color
+  --bs-yellow: #ffc107;      // variable for the yellow color
+  --bs-green: #28a745;       // variable for the green color
+  --bs-teal: #0487D9;        // variable for the teal color
+  --bs-cyan: #91C5F2;        // variable for the cyan color
+  --bs-black: #000;          // variable for the black color
+  --bs-white: #fff;          // variable for the white color
+  
+  /* Shades of gray */
+  --bs-gray: #b6bcc2;        // variable for the gray color
+  --bs-gray-dark: #343a40;   // variable for the dark gray color
+  --bs-gray-100: #f8f9fa;    // variable for the light gray color (shade 100)
+  --bs-gray-200: #e9ecef;    // variable for the light gray color (shade 200)
+  --bs-gray-300: #dee2e6;    // variable for the light gray color (shade 300)
+  --bs-gray-400: #ced4da;    // variable for the light gray color (shade 400)
+  --bs-gray-500: #adb5bd;    // variable for the light gray color (shade 500)
+  --bs-gray-600: #b6bcc2;    // variable for the light gray color (shade 600)
+  --bs-gray-700: #495057;    // variable for the dark gray color (shade 700)
+  --bs-gray-800: #343a40;    // variable for the dark gray color (shade 800)
+  --bs-gray-900: #212529;    // variable for the dark gray color (shade 900)
 
+  /* Other colors */
+  --bs-primary: #007bff;     // variable for the primary color
+  --bs-secondary: #b6bcc2;   // variable for the secondary color
+  --bs-success: #28a745;     // variable for the success color
+  --bs-info: #17a2b8;        // variable for the info color
+  --bs-warning: #ffc107;     // variable for the warning color
+  --bs-danger: #dc3545;      // variable for the danger color
+  --bs-light: #f8f9fa;       // variable for the light color
+  --bs-dark: #343a40;        // variable for the dark color
+
+  /* RGB values */
+  --bs-primary-rgb: #3498db;       // variable for the primary color in RGB format
+  --bs-secondary-rgb: 108, 117, 125;   // variable for the secondary color in RGB format
+  --bs-success-rgb: 25, 135, 84;       // variable for the success color in RGB format
+  --bs-info-rgb: 13, 202, 240;         // variable for the info color in RGB format
+  --bs-warning-rgb: 255, 193, 7;       // variable for the warning color in RGB format
+  --bs-danger-rgb: 220, 53, 69;        // variable for the danger color in RGB format
+  --bs-light-rgb: 248, 249, 250;       // variable for the light color in RGB format
+  --bs-dark-rgb: 33, 37, 41;           // variable for the dark color in RGB format
+  --bs-white-rgb: 255, 255, 255;       // variable for the white color in RGB format
+  --bs-black-rgb: 0, 0, 0;             // variable for the black color in RGB format
+
+  /* Font styles */
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";     // variable for the sans-serif font style
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;    // variable for the monospace font style
+  
+  /* Other settings */
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));    // variable for the gradient
+  --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;   // variable for the font family
+  --bs-body-font-size: 1rem;     // variable for the font size
+  --bs-body-font-weight: 400;    // variable for the font weight
+  --bs-body-line-height: 1.5;    // variable for the line height
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #8498BF;
-  /* replace with the color you choose */
   background-color: #f0f0f0;
 }
 
 .hero-section {
-  background-image: url("/assets/images/CoolJon-french-impressionism.jpg");
+  background-image: url("assets/images/Abstract-Dark-Background-4.png");
   background-size: cover;
   background-position: center;
 }
 
-.navbar {
+.navbar, footer {
   background-color: #1a2227;
+  color: #8498BF;
 }
 
 .navbar a {
@@ -111,11 +97,6 @@ body {
 
 .navbar a:hover {
   color: #33658A;
-}
-
-footer {
-  background-color: #1a2227;
-  color: #8498BF;
 }
 
 button {
@@ -127,17 +108,12 @@ button:hover {
   background-color: #33658A;
 }
 
-a.special {
-  color: #F26419;
-}
-
-p.notification {
+a.special, p.notification {
   color: #F26419;
 }
 
 section#testimonials {
   padding: 50px;
-  /* Adjust this value to your liking */
 }
 
 section#contact {
@@ -156,12 +132,10 @@ section#contact input[type="email"],
 section#contact textarea {
   width: 100%;
   max-width: 750px;
-  /* Adjust this value as needed */
-  padding: 10px;
+  padding: 10px 0;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 50px;
-  /* Add this line */
 }
 
 section#contact input[type="submit"] {
@@ -176,13 +150,6 @@ section#contact input[type="submit"] {
 section#contact input[type="submit"]:hover {
   background-color: #45a049;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -516,11 +483,14 @@ select:disabled {
   display: none !important;
 }
 
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+button[type="button"],
+[type="reset"],
+[type="submit"] {
+  appearance: button; /* Standard syntax */
+  -moz-appearance: button; /* Mozilla Firefox prefix */
+  -webkit-appearance: button; /* WebKit-based browsers prefix */
+  -ms-appearance: button; /* Microsoft Edge prefix */
+  -o-appearance: button; /* Opera prefix */
 }
 
 button:not(:disabled),
@@ -581,8 +551,10 @@ legend+* {
 
 [type=search] {
   outline-offset: -2px;
-  appearance: searchfield; /* Standard property */
-  -webkit-appearance: searchfield; /* Vendor-prefixed property for older WebKit-based browsers */
+  appearance: searchfield;
+  /* Standard property */
+  -webkit-appearance: searchfield;
+  /* Vendor-prefixed property for older WebKit-based browsers */
 }
 
 /* rtl:raw:
