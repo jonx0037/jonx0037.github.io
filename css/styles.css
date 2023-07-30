@@ -74,7 +74,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--bs-font-sans-serif); /* Use the sans-serif font style */
   margin: 0;
   padding: 0;
   color: #F8F8F8;
