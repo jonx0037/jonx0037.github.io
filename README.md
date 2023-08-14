@@ -1,2 +1,2 @@
-# GitHub
- Git Repository for Jonathan Rocha. Most of my projects are linked on my Github pages site for this repo. Everything's a work in progress, but some projects have progressed more than others. I'm mostly just trying to get better at web development, so this is all fun for me.
+# UpdateGitHubProfilePage
+I'm working on updating my main profile github-pages site with the files from this repo. Soon, this repo, when I've completed my necessary updates, will be cloned to jonx0037.github.io to replace it. Stay tuned for updates. 

@@ -1,238 +1,1400 @@
+<!--
+author: Boostraptheme
+author URL: https://boostraptheme.com
+License: Creative Commons Attribution 4.0 Unported
+License URL: https://creativecommons.org/licenses/by/4.0/
+-->
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Jonathan Rocha's Portfolio: Experienced web developer with a passion for creating beautiful, user-friendly websites. Check out my work and get in touch!" />
-        <meta name="author" content="" />
-        <title>Jonathan Rocha | C/V, Resume</title>
-        <link rel="icon" type="image/x-icon" href="https://github.com/jonx0037/jonx0037.github.io/blob/main/startbootstrap-resume-gh-pages/assets/img/favicon.ico" />
-		<!-- Core theme CSS -->
-		<link href="css/styles.css" rel="stylesheet" />
-		<!-- Font Awesome icons (free version)-->
-		<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-		<!-- Google fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-		<link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="img/favicon_io/favicon.ico">
+  <title>Jonathan Rocha | Web Developer</title>
+  <!-- Global stylesheets -->
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
 <body id="page-top">
-    <!-- Hero Section -->
-    <section class="hero-section" id="hero">
-        <div class="hero-section-content">
-            <header>
-                <h1>Welcome to My Portfolio</h1>
-                <p>I'm a web developer with a passion for creating beautiful, user-friendly websites.</p>
-            </header>
-        </div>
-    </section>  	
-</body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Jonathan Rocha</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/coolJon1.jpeg" alt="Profile picture of Jonathan Rocha" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a></li>
-                </ul>
+  <style>
+    #sideNav {
+      background-image: url('img/navbar-background.png');
+      background-size: cover;
+    }
+  </style>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none mx-0 px-0 img-fluid logo-container">
+        <img src="img/JonRocDevLogo2.jpg" alt="Logo of JonRocDev">
+      </span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg"
+          alt="Profile Image of Jonathan Rocha" id="profile-image">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <!--====================================================
+                        ABOUT
+    ======================================================-->
+    <main>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div>
+          <img src="img/JonRocDevLogo.jpg" class="logo-image mb-3" alt="Logo for JonRocDev">
+          <!-- Each content-bg is wrapped with a block element -->
+          <div>
+            <div class="content-bg">
+              <div class="h1-mimic">JONATHAN ROCHA</div>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <main class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Jonathan
-                      <span class="text-primary">Rocha</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        8700 Schick ST, Apt A · Austin, TX 78729 · (512) 902-0037 ·
-                      <a href="mailto:name@email.com">jon.rocha@outlook.com</a>
-                    </div>
-                    <p class="lead mb-5">I am an experienced web developer with extensive knowledge and experience in graphic design and SEO. I love to work on all aspects of a website; I'd love to work on yours. </p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+          </div>
+          <div>
+            <div class="content-bg">
+              <div class="subheading mb-5">I'M ALWAYS WORKING ON STUFF IN MY <a
+                  href="https://jonathanrocha.myportfolio.com/">PORTFOLIO</a></div>
+            </div>
+          </div>
+          <div>
+            <div class="content-bg">
+              <p class="mb-5 my-bio" style="max-width: 500px;">As a web developer, I blend creativity and technology to
+                create stunning websites and innovative AI artwork. My diverse projects showcase the transformative
+                power of AI and my commitment to functional, appealing design. Open to collaborations, I'm eager to
+                explore new opportunities and create impactful digital experiences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="dark-content">
+        <header>
+          <h1>Jonathan's Odyssey: A Digital Tapestry Woven in Austin's Embrace</h1>
+          <p>In the heart of Texas, where the Colorado River's whispers meld with the hum of technology, my journey
+            unfolds. A tale not just of codes and pixels, but of dreams, aspirations, and the timeless dance of life.
+            Here, amidst the digital landscapes, I invite you to delve deep into my world, to explore the intricate
+            layers of my story, and to witness the fusion of past and present in every line of code and prose.</p>
+          <p>From the vibrant classrooms of Texas A&amp;M, where the echoes of history and the rhythm of English
+            literature filled my days, to the dojo, where I honed my discipline and resilience, every step has been a
+            dance with destiny. Each experience, each encounter, has woven another thread into the tapestry of my
+            journey.</p>
+          <p>In the realm of languages, I've found companions in Spanish and French, their cadences adding depth to my
+            narrative. They are not just languages but bridges to cultures, perspectives, and a world larger than mine.
+            And in the heart of my everyday speech, the 'bro' dialogues resonate, a testament to a spirit that remains
+            untamed, even as it evolves.</p>
+          <p>Family, too, is an integral part of my odyssey. The anchors that ground me are the laughter, the shared
+            memories, and the bonds that transcend time and space. And amidst this familial symphony, Lady, my Old
+            English Bulldogge, stands by my side, a constant in a world ever-changing.</p>
+          <p>I've found my canvas in the vast expanse where art meets machine. Here, I craft visual narratives that
+            speak to our audience, each design a testament to the fusion of aesthetics and functionality. And as days
+            turn to nights, @jonR_eth, my digital reflection, shares fragments of a life lived in-depth, observed, and
+            felt from the soul's core.</p>
+          <p>From the sun-baked roads of Texas to the limitless horizon of web development, my path is not straight but
+            meandering. With each line of code, with every challenge faced, I'm not just crafting sites; I'm weaving
+            stories as intricate and layered as the tales from the Deep South.</p>
+          <p>In this odyssey, accolades aren't mere markers. They resonate, each one echoing the dedication of a man
+            grappling with history, tradition, and the onward march of days. If these words, these snippets of my
+            journey, resonate with you, then know the door is open. In this vast tapestry of life, there's always room
+            for another story, another connection.</p>
+        </header>
+        <section class="content-row">
+          <div class="text-content">
+            <h2>Amidst Austin's Timeless Echoes</h2>
+            <p>I stand in the embracing shadows of Austin, where the Colorado River tells tales as ancient as the land.
+              Once a dancer in the intricate ballet of Brazilian Jiu-Jitsu, I now find myself weaving stories in the
+              digital
+              realm. The dojo, with its echoing memories, is a chapter behind, but the glowing promise of the screen
+              calls me
+              to a world where yesterday and today blur.
+            </p>
+            <p>I stand in the embracing shadows of Austin, where the Colorado River tells tales as ancient as the land.
+              Once a dancer in the intricate ballet of Brazilian Jiu-Jitsu, I now find myself weaving stories in the
+              digital realm. The dojo, with its echoing memories, is a chapter behind, but the glowing promise of the
+              screen calls me to a world where yesterday and today blur.</p>
+            <p>In this fusion of past and present, the discipline and grace of martial arts find new expression in the
+              lines of code and the architecture of websites. The same focus, the same relentless pursuit of excellence
+              that once guided my hands in the dojo, now guides my fingers on the keyboard. It's a dance of a different
+              kind, yet the rhythm remains the same. Here, in the heart of Austin, I continue my odyssey, crafting
+              digital
+              landscapes that resonate with the timeless echoes of the land I call home.</p>
+          </div>
+          <div class="img-content">
+            <img src="img/home-content-1.jpg" alt="walk in the park" class="img-fluid rounded mb-3"
+              style="width: 600px; height: 450px;">
+          </div>
+        </section>
+        <section class="content-row-reverse">
+          <div class="img-content">
+            <img src="img/home-content-2.jpg" alt="great day to be alive" class="img-fluid rounded mb-3"
+              style="width: 600px; height: 450px;">
+          </div>
+          <div class="text-content">
+            <h3>Through the Corridors of Knowledge and Whispers of Distant Lands</h3>
+            <p>In the storied halls of Texas A&M, I delved deep into tales of ancient civilizations and the rich
+              tapestry of English literature. Yet, my heart, ever restless, yearned for more. It found echoes
+              in the fiery embrace of Spanish and the gentle lullabies of French, each adding another note to my
+              life's song.</p>
+            <p>These languages were not mere subjects; they were gateways to worlds unexplored, to cultures rich
+              and
+              diverse. In the cadence of Spanish, I felt the passion and vitality of a people, and in the
+              elegance of
+              French, the romance and artistry of another. Together, they wove a melody that resonated with my
+              own quest
+              for knowledge and understanding.</p>
+            <p>The degrees I earned were not mere certificates; they were milestones in a journey that
+              transcended the
+              confines of classrooms and textbooks. They were a testament to a curiosity that knew no bounds,
+              to a mind
+              that sought to unravel the mysteries of history, language, and literature. In this pursuit, I
+              found not
+              just
+              knowledge but wisdom, not just facts but insights that continue to shape my path, even as I
+              weave my tales
+              in the digital realm.</p>
+          </div>
+        </section>
+        <section class="content-row">
+          <div class="text-content">
+            <h3>Life, in its Endless Cycle and the Symphony of Kin</h3>
+            <p>As it unfolds, life is a tale told by many, full of sound and fury. Amidst this cacophony, my 'bro'
+              dialogues
+              resonate, a testament to a spirit that remains untamed. Around me, the family moves like a tide,
+              bringing love, laughter, and memories. And in this dance, Lady, my Olde English Bulldogge, stands by my
+              side, a
+              constant in a world ever-changing.
+            </p>
+            <p>In the warmth of family gatherings, in the shared joys and sorrows, I find the essence of life's true
+              melody. Each brother, each parent, each niece and nephew, adds a unique note to this symphony, creating a
+              harmony that transcends the mundane and reaches into the very soul of existence.</p>
+            <p>Lady, with her unwavering loyalty and boundless love, is more than a pet; she's a companion, a fellow
+              traveler in this odyssey of life. Her presence in my office, her joy in simple pleasures, is a reminder of
+              the beauty in the everyday, of the connections that make life rich and meaningful.</p>
+            <p>Together, we navigate the twists and turns of life, embracing each moment, each experience, as a part of
+              a
+              grand tapestry that is ever-woven, ever-evolving. In this dance of life, I find joy, purpose, and a sense
+              of
+              belonging that fuels my creativity and inspires my journey, both in the digital realm and beyond.</p>
+          </div>
+          <div class="img-content">
+            <img src="img/home-content-1.png" alt="beautiful days ahead" class="img-fluid rounded mb-3"
+              style="width: 600px; height: 450px;" />
+          </div>
+        </section>
+        <section>
+          <h3>Artistry in the Age of Machines and Chronicles of a Digital Self</h3>
+          <p>I've found my canvas in the vast expanse where art meets machine. Midjourney is more than a tool; it's a
+            fellow traveler. It's a realm where creativity knows no bounds, where pixels and algorithms become brush
+            strokes, and screens become canvases. And as days turn to nights, @jonR_eth, my digital reflection, shares
+            fragments of a life lived in-depth, observed, and felt from the soul's core. It's a chronicle of thoughts,
+            insights, and musings, a digital diary that mirrors the complexity and richness of life itself.
+          </p>
+        </section>
+        <section>
+          <h3>The Journey, Ever-winding, and the Quest for More</h3>
+          <p>From the sun-baked roads of Texas to the limitless horizon of web development, my path is not straight but
+            meandering. With each line of code, with every challenge faced, I'm not just crafting sites; I'm weaving
+            stories as intricate and layered as the tales from the Deep South. It's a journey that transcends
+            technology, that reaches into the very essence of storytelling, of connection, of humanity. It's a path that
+            calls for exploration, for curiosity, for a relentless pursuit of something more profound, something
+            enduring.
+          </p>
+        </section>
+        <div class="slider-wrapper">
+          <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-11.png" alt="Image 1">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-12.png" alt="Image 2">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-13.png" alt="Image 3">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-14.png" alt="Image 4">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-15.png" alt="Image 5">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-16.png" alt="Image 6">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 7 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-17.png" alt="Image 7">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 8 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-18.png" alt="Image 8">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 9 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-19.png" alt="Image 9">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 10 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-20.png" alt="Image 10">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 11 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-21.png" alt="Image 11">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- Slide 12 -->
+            <div class="slide">
+              <img src="img/Content Gallery/CG-22.png" alt="Image 12">
+              <div class="hover-text">Placeholder Text</div>
+            </div>
+            <!-- ... repeat for other images -->
+          </div>
+          <button class="arrow arrow-left">←</button>
+          <button class="arrow arrow-right">→</button>
+        </div>
+        <div class="modal-gallery" id="modal-gallery">
+          <img src="" alt="Large Image" id="large-image">
+          <button class="modal-arrow modal-arrow-left" id="modal-left">←</button>
+          <button class="modal-arrow modal-arrow-right" id="modal-right">→</button>
+        </div>
+        <section>
+          <h3>Recognition: Echoes of Time's Passage</h3>
+          <p>In this odyssey, accolades aren't mere markers. They resonate, each one echoing the dedication of a man
+            grappling with history, tradition, and the onward march of days. They are symbols, reminders of the journey
+            traveled, of the battles fought, of the wisdom gained. They are not endpoints but milestones, each one a
+            reflection of a quest that knows no end, a thirst for knowledge and mastery that continues to drive me
+            forward.</p>
+        </section>
+        <section>
+          <h3>An Invitation, From Me to You</h3>
+          <p>If these words, these snippets of my journey, resonate with you, then know the door is open. In this vast
+            tapestry of life, there's always room for another story, another connection. Whether it's a shared project,
+            a common interest, or simply a desire to connect, I welcome you. Let's explore, create, and journey
+            together, adding new threads to this intricate weave of life, forging bonds that transcend the digital
+            realm.</p>
+        </section>
+      </article>
+    </main>
+    <!--====================================================
+                        EXPERIENCE
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 " id="experience">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Experience</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12 ">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #b81742; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); background-color: #888888;">
+            <div class=" resume-content mr-auto">
+              <h4 class="mb-3"><i class="fas fa-link mr-3 text-info"></i>SEO Analyst</h4>
+              <h5 class="mb-3">DRS</h5>
+              <p>I've found my latest calling in the digital labyrinth where search engines rule and keywords hold sway.
+                As an SEO Analyst at Dumpster Rental Systems, I navigate the intricate pathways of search engine
+                optimization, ensuring our digital presence resonates with the rhythm of the web. Each algorithm update,
+                each shift in trends, is a new verse in this ongoing symphony of search.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">April 2023 - Present</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #b8a317; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); background-color: #888888;">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fas fa-crop mr-3 text-warning"></i>Graphics Designer</h4>
+              <h5 class="mb-3">DRS</h5>
+              <p>Before the SEO landscape beckoned, I danced with colors and shapes as a Graphics Designer at Dumpster
+                Rental Systems. Here, amidst pixels and design tools, I crafted visual narratives that spoke to our
+                audience, each design a testament to the fusion of aesthetics and functionality. It was a canvas where
+                art met business, and I was the artist.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2022 - April 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #4fb817; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); background-color: #888888;">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-code mr-3 text-success"></i>Web Developer</h4>
+              <h5 class="mb-3">DRS</h5>
+              <p>The realm of web development was my first foray into the digital landscape at Dumpster Rental Systems.
+                With each line of code, I built bridges between users and the services they sought. HTML, CSS, and
+                JavaScript were my tools, and the web was my canvas. Each project was a journey; each challenge was a
+                stepping stone to the next.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">March 2021 - May 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="resume-item col-md-6 col-sm-12">
+          <div class="card mx-0 p-4 mb-5"
+            style="border-color: #1737b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21); background-color: #888888;">
+            <div class="resume-content mr-auto">
+              <h4 class="mb-3"><i class="fa fa-chalkboard-teacher mr-3 text-primary"></i>Teacher, Special Education</h4>
+              <h5 class="mb-3">STMS</h5>
+              <p>Before the digital realm called me, I found my purpose in the hallowed halls of Sci-Tech Middle School.
+                As a Special Education Teacher, I guided young minds through the labyrinth of learning. Each lesson was
+                a beacon, each success, a testament to the resilience and potential of every student. It was a chapter
+                of growth, not just for my students but for me as well.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November 2018 - December 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        PORTFOLIO
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
+      <div class="row my-auto">
+        <div class="col-12">
+          <h2 class="  text-center">Portfolio</h2>
+          <div class="mb-5 heading-border"></div>
+        </div>
+        <div class="col-md-12">
+          <div class="port-head-cont">
+            <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="consulting">Web Design</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="finance">Mobile Apps</button>
+            <button class="btn btn-general btn-green filter-b" data-filter="marketing">Graphics Design</button>
+          </div>
+        </div>
+      </div>
+      <div class="row my-auto">
+        <div class="col-sm-4 portfolio-item filter finance">
+          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-4.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter marketing">
+          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-5.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter consulting">
+          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-6.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter consulting">
+          <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-7.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter consulting">
+          <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-8.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter finance">
+          <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-9.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter marketing">
+          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter marketing">
+          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-sm-4 portfolio-item filter finance">
+          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <div class="caption-port">
+              <div class="caption-port-content">
+                <i class="fa fa-search-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/p-3.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--====================================================
+                        SKILLS
+    ======================================================-->
+    <section class="d-flex flex-column" id="skills">
+      <h3 class="text-center">Coding Skills</h3>
+      <div class="my-auto">
+        <div class="row">
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">95</span><span>%</span></div>
+              <p>CSS3</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-html5 fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">99</span><span>%</span></div>
+              <p>HTML5</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-js-square fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">83</span><span>%</span></div>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-python fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">80</span><span>%</span></div>
+              <p>Python</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fas fa-paint-brush fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">97</span><span>%</span></div>
+              <p>Adobe Photoshop</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-git-square fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">99</span><span>%</span></div>
+              <p>GitHub</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-swift fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">89</span><span>%</span></div>
+              <p>Swift</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-react fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">85</span><span>%</span></div>
+              <p>React</p>
+            </div>
+          </div>
+          <div class="col-md-4 skill-item fade-left">
+            <i class="fab fa-wordpress fa-5x"></i>
+            <div>
+              <div class="skill-percentage"><span class="counter">97</span><span>%</span></div>
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====================================================
+                           AWARDS
+    ======================================================-->
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+      <div class="content">
+        <div class="row my-auto">
+          <div class="col-12">
+            <h2 class="  text-center">Awards</h2>
+            <div class="mb-5 heading-border"></div>
+          </div>
+          <div class="main-award" id="award-box">
+            <div class="award">
+              <div class="award-icon"></div>
+              <div class="award-content">
+                <span class="date">Mar 2023 - June 2023</span>
+                <h5 class="title">SEO Party Rental Site Top Ranking</h5>
+                <p class="description">
+                  In the grand arena of SEO, where digital gladiators vie for the coveted top spot, my creation, Heart
+                  of Texas Party Rentals, emerged victorious. Alongside three other developers at DRS, we each crafted a
+                  party rental site, our sights set on Google's elusive peak. Yet, it was my site that soared the
+                  highest, a testament to the intricate dance of keywords, content, and strategy. It was not just a
+                  victory, but a symphony of SEO, played to perfection.
+                </p>
+              </div>
+            </div>
+            <div class="award">
+              <div class="award-icon"></div>
+              <div class="award-content">
+                <span class="date">Feb 2022 - Oct 2022</span>
+                <h5 class="title">SEO On-Page Specialist - HubSpot Certification</h5>
+                <p class="description">
+                  In the ever-evolving landscape of SEO, continuous learning is the beacon that guides us. At DRS, I
+                  embarked on a journey with HubSpot, delving deep into the intricacies of on-page SEO. The journey was
+                  arduous, the lessons complex, but the destination was worth every step. Emerging as an SEO On-Page
+                  Specialist, this certification stands as a testament to my dedication, a symbol of my commitment to
+                  mastering the art and science of SEO. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--====================================================
+                          CONTACT
+    ======================================================-->
+    <section class="contact contactForm d-flex flex-column" id="contact">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <section class="contact-cont">
+            <h3>Reach Out, Let's Weave Tales Together</h3>
+            <div class="heading-border-light"></div>
+            <p>In this vast digital expanse, connections are the threads that weave our stories together. If my journey
+              resonates with you, or if you wish to pen a new chapter together, I invite you to reach out. Whether it's
+              a shared interest, a project proposal, or simply a hello from another corner of the world, each message is
+              a welcome echo in this grand narrative. Let's connect, and together, add another layer to this intricate
+              tapestry of life.</p>
+            <form class="form-horizontal" method="POST" action="contact.php" id="contactForm"
+              onsubmit="return validateForm()">
+              <fieldset>
+                <div class="form-container">
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                  </div>
+                  <div class="form-group" style="margin-top: 0;">
+                    <button type="submit">Send</button>
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Portfolio Section -->
-            <section class-"Portfolio-Section" id="portfolio">
-               <div class="Portfolio-Section-content">
-                <h2>My Work</h2>
-                <article>
-                    <h3>Project 1</h3>
-                    <p>Description of project 1.</p>
-                </article>
-               </div>
-             </section>   
-                <!-- Add more articles for each project -->
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0"> Web Developer</h3>
-                            <div class="subheading mb-3">DRS - Dumpster Rental Solutions</div>
-                            <p>As a Web Developer at DRS - Dumpster Rental Solutions, I am responsible for the design, creation, and maintenance of the company's website and web applications. My role involves utilizing various coding languages to create user-friendly, responsive, and SEO-optimized interfaces that enhance the user experience and drive business goals. Additionally, I work cross-functionally with marketing and business teams to integrate and update content, optimize our web presence, and ensure the alignment of the website with company branding and strategies. Regular system diagnostics and troubleshooting form a key part of my role, ensuring optimal website functionality and security at all times.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2021 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Special  Education Teacher</h3>
-                            <div class="subheading mb-3">Wayside Middle School - Austin, TX</div>
-                            <p>As a Special Education Teacher at Wayside Middle School, I played a crucial role in providing individualized instruction tailored to students with various special needs. I developed and implemented Individualized Education Programs (IEPs), ensuring they met each student's unique needs and promoted educational, personal, and social growth. Collaboration with other teachers, therapists, and parents was a vital part of my role, working together to create supportive, inclusive learning environments. Additionally, I implemented effective classroom management techniques, assessed student progress, and continually adapted teaching methods to optimize student understanding and engagement.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2018 - December 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Special  Education Teacher Assistant</h3>
-                            <div class="subheading mb-3">IDEA Bluff Springs - Austin, TX </div>
-                            <p>As a Special Education Teacher Assistant at IDEA Bluff Springs, I provided essential support to the lead Special Education Teacher and directly assisted students with various special needs. My duties included helping implement Individualized Education Programs (IEPs), managing classroom logistics, and assisting students with daily tasks. I facilitated a safe, inclusive learning environment, ensuring each student felt understood, supported, and empowered to succeed. My role also required regular communication with parents, teachers, and other professionals, fostering a holistic approach to special education.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - May 2018</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Special  Education Teacher Assistant</h3>
-                            <div class="subheading mb-3">Lee  Means Elementary - Harlingen, TX</div>
-                            <p>In my role as a Special Education Teacher Assistant at Lee Means Elementary, I supported the lead Special Education Teacher in creating and fostering a compassionate, inclusive learning environment for students with special needs. My responsibilities included aiding in the implementation of Individualized Education Programs (IEPs), assisting students with daily tasks, and providing classroom support. I closely collaborated with teachers, therapists, and parents to ensure all students received the personalized care and educational resources they needed. My contributions played a significant role in promoting positive student development and progress.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2012 - May 2016</span></div>
-                    </div>
+              </fieldset>
+            </form>
+          </section>
+        </div>
+      </div>
+    </section>
+    <!--====================================================
+                    FOOTER
+======================================================-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Contact Info -->
+          <div class="col-12 col-md-4">
+            <div class="col">
+              <h4>Contact Info</h4>
+              <div itemscope itemtype="http://schema.org/Organization">
+                <p><b><i class="fas fa-building"></i> Company:</b> <span itemprop="name"><a
+                      href="http://www.jonroctech.com">JonRocTech</a></span></p>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <p><b><i class="fas fa-map-marker-alt"></i> Address:</b> <span itemprop="streetAddress"><a
+                        href="https://www.google.com/maps/search/?api=1&query=8700+Schick+Rd+%23A,+Austin,+TX"
+                        target="_blank">8700 Schick Rd #A, Austin, TX</a></span></p>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Testimonials Section -->
-			<section classs="testimonials-section" id="testimonials">
-			  <div class"testimonials-section-content">
-				<aside id="testimonials">
-					<h2>Testimonials</h2>
-					<blockquote>
-						<p>"Having had the pleasure of working with Jonathan, I've been consistently impressed by their dedication, technical ability, and genuine passion for their work. As a Web Developer, Jonathan combines a deep understanding of coding and design principles with a creative approach to problem-solving. Their adaptability and attention to detail have been instrumental in meeting project deadlines without compromising on quality. In addition, Jonathan's background in special education adds a unique perspective to their approach, bringing a level of empathy and inclusivity to their work that sets them apart. I highly recommend Jonathan to any team looking for a driven, skilled, and personable web developer."</p>
-						<cite>- Mark C.</cite>
-					</blockquote>
-			  </div>
-			</section>		
-					<!-- Add more blockquotes for each testimonial -->
-				</aside>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-					 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Texas A&amp;M University  Central Texas</h3>
-                            <div class="subheading mb-3">Master of Arts</div>
-                            <div>English</div>
-                            <p>GPA: 3.75</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">January 2019 - December 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Texas A&amp;M University - College Station</h3>
-                            <div class="subheading mb-3">Bachelor of Arts</div>
-                            <div>History - Minor: Political Science</div>
-                            <p>GPA: 3.1</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 1999 - August 2004</span></div>
-                    </div>
+              </div>
+              <p><b><i class="fas fa-phone"></i> Phone:</b> <a href="tel:+15129020037">(512) 902-0037</a></p>
+              <p><b><i class="fas fa-envelope"></i> Email:</b> <a href="mailto:jonx03@pm.me">jonx03@pm.me</a></p>
+            </div>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-12 col-md-4">
+            <div class="col">
+              <h4>Quick Links</h4>
+              <p><a href="#">About Me</a></p>
+              <p><a href="#">Services</a></p>
+              <p><a href="#">Blog</a></p>
+              <p><a href="#">Contact Me</a></p>
+              <p><a href="#">Privacy Policy</a></p>
+            </div>
+          </div>
+          <!-- Google Map -->
+          <div class="col-12 col-md-4">
+            <div class="col">
+              <h4>Find Me</h4>
+              <div class="d-flex flex-column" id="maps">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440899.73490213486!2d-98.03593214115286!3d30.30746242142475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C%20TX!5e0!3m2!1sen!2sus!4v1690768797888!5m2!1sen!2sus"
+                  width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo and Social Media Icons -->
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <ul class="list-inline list-social-icons mb-0">
+              <li class="list-inline-item">
+                <a href="https://github.com/jonx0037/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCkdmlfy_X-CQqRENpwYQtRg/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/jonR_eth/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://jonathanrocha.myportfolio.com/">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 text-md-left">
+            <img src="img/JonRocDevLogo2.jpg" alt="JonRocDev Logo">
+          </div>
+        </div>
+        <!-- Copyright Section -->
+        <div class="row">
+          <div class="col-12 col-md-6 text-md-left mt-4">
+            &copy; 2023 Jonathan Rocha, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--====================================================
+                    PORTFOLIO MODALS
+======================================================-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-1.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
                     </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Task Specific Tools &amp; Strategies</li>
-						<li>
-							<span class="fa-li"><i class="fas fa-check"></i></span>
-							SEO Auditing &amp; Analysis
-						</li>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-2.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
                     </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-					<h2 class="mb-5">Interests</h2>
-					<p>When I'm not developing websites, I cherish my time engaging in a variety of activities. With a background in education, I am deeply passionate about learning and often find myself drawn to books and documentaries spanning a broad spectrum of topics from technology to psychology.</p>
-					<p>Living in Texas has fostered my love for outdoor activities. I enjoy hiking the local trails, exploring the natural beauty of our state parks, and participating in community events.</p>
-					<p class="mb-0">When indoors, my interests take a turn towards technology and creativity. As an avid fan of both sci-fi and fantasy genres, I love getting lost in a new series or film. Cooking also holds a special place in my heart, often serving as a creative outlet and a means to explore different cultures. Moreover, I dedicate a significant portion of my free time to staying updated with the latest advancements in web development, consistently looking for ways to enhance my skills and knowledge.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Contact Section -->
-            <section class="contact-section" id="contact">
-              <div class="contact-section-content">
-                <h2>Contact Me</h2>
-                <p>You can reach me at <a href="mailto:jon.rocha@outlook.com">jon.rocha@outlook.com</a>.</p>
-                <!-- Contact Form -->
-                <form action="https://formspree.io/your@email" method="POST">
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="name">
-                    <label for="email">Your Email:</label>
-                    <input type="email" id="email" name="_replyto">
-                    <label for="message">Your Message:</label>
-                    <textarea id="message" name="message"></textarea>
-                    <input type="submit" value="Send">
-                </form>
-              </div>  
-            </section>
-            <hr class="m-0" />
-        </main>
-        <!-- Footer -->
-        <footer>
-                <p>&copy; 2023 Jonathan Rocha</p>
-                <!-- Add any other information you want in the footer -->
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-4.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-6.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-7.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-8.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="modal-body">
+                <div class="title-bar">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Our Project</h2>
+                    <div class="heading-border"></div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img class="img-fluid img-centered" src="img/portfolio/p-9.jpg" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <p>Our new Project every processes had become fragmented; meaning quality and service were
+                      inconsistent. This lack of standardization was adversely impacting operating costs,
+                      productivity
+                      and
+                      customer satisfaction. For several years now Payfast has worked strategically with innovations
+                      as
+                      a
+                      means of developing new solutions, products and services. In line with this vision, Success
+                      was
+                      approached to find new payments solutions to offer Payfast customers on their website,
+                      including
+                      open invoice and partial payments options.</p>
+                    <ul class="list-inline item-details">
+                      <li>Client:
+                        <strong>
+                          <a href="#">Techs Soft</a>
+                        </strong>
+                      </li>
+                      <li>Date:
+                        <strong>
+                          <a href="#">April 2018</a>
+                        </strong>
+                      </li>
+                      <li>Service:
+                        <strong>
+                          <a href="#">Web Development</a>
+                        </strong>
+                      </li>
+                    </ul>
+                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                      <i class="fa fa-times"></i> Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Global javascript -->
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-easing/jquery.easing.min.js"></script>
+    <script src="js/counter/jquery.waypoints.min.js"></script>
+    <script src="js/counter/jquery.counterup.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        // Global settings
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+
+        $(".filter-b").click(function () {
+          var value = $(this).attr('data-filter');
+          if (value == "all") {
+            $('.filter').show('1000');
+          }
+          else {
+            $(".filter").not('.' + value).hide('3000');
+            $('.filter').filter('.' + value).show('3000');
+          }
+        });
+
+        if ($(".filter-b").removeClass("active")) {
+          $(this).removeClass("active");
+        }
+        $(this).addClass("active");
+      });
+
+      // SKILLS
+      $(function () {
+        $('.counter').counterUp({
+          delay: 10,
+          time: 2000
+        });
+      });
+    </script>
+</body>
+
 </html>
