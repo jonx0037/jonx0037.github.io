@@ -584,9 +584,7 @@ section.resume-section .resume-item .resume-date {
                    PORTFOLIO
 ======================================================*/
 
-(#portfolio {
-        background: url(img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
-        background-size: cover;
+#portfolio {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -721,17 +719,12 @@ section.resume-section .resume-item .resume-date {
         .portfolio-modal .close-modal {
             display: none;
         }
-    })
+    };
 
 /*====================================================
                       SKILLS
 ======================================================*/
 #skills {
-    background-image: url(../img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -781,11 +774,6 @@ section.resume-section .resume-item .resume-date {
                       AWARD
 ======================================================*/
 #awards {
-    background-image: url(../img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1235,3 +1223,4 @@ section.resume-section .resume-item .resume-date {
             padding-bottom: 0;
         }
     }
+}
