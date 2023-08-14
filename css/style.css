@@ -706,7 +706,7 @@ section.resume-section .resume-item .resume-date {
 
     .portfolio-modal .close-modal .lr,
     .portfolio-modal .close-modal .lr .rl {
-        background-color: #fff;
+        background-color: #333;
         /* White color for close button */
     }
 
