@@ -577,27 +577,14 @@ section.resume-section .resume-item .resume-date {
                    PORTFOLIO
 ======================================================*/
 
+:root {
+  --dark-theme-color: #333;
+  --text-color: #ffffff;
+}
+
 #portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 3rem 0;
-  max-width: 100% !important;
-  width: 100% !important;
-  background-color: #333;
-  /* Dark background color */
-  color: #fff;
-  /* White text color */
-}
-
-.port-head-cont {
-  margin: 20px auto 40px auto;
-  text-align: center;
-}
-
-.port-head-cont button {
-  margin: 5px 2px;
+  background: var(--dark-theme-color);
+  color: var(--text-color);
 }
 
 #portfolio .portfolio-item {
@@ -719,11 +706,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (max-width: 850px) {
-  .portfolio-modal .close-modal {
-    display: none;
-  }
-}
-
+  .portfolio-modal
 /*====================================================
                       SKILLS
 ======================================================*/
