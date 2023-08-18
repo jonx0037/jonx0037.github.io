@@ -120,38 +120,7 @@ a:active {
   max-width: 100%;
   height: auto;
 }
-header nav ul li a{ 
-  color:#FFFFFF ;
-  list-style:none;
-  
-}
-header nav >ul>li:not(:first-of-type){
-  
-  margin-left:.5vw;
-}
 
- header nav >ul>li:hover > a , 
- header nav >ul>li.active > a { 
-    background-color :rgb(22, 100, 166,.5 )   ;
-    
-      
-}
-header nav >ul>li.active > a { 
-    
-    
-    border-radius: 3px;
-    
-  
-}
-/* Header Banner Styling */
-#intro {
-  min-height: calc((100vh - 70px));
-  background-attachment: fixed;
-  background-image: linear-gradient(to bottom, rgba(0,0,0, .8),rgba(0,0,0, .8)),url("https://source.unsplash.com/random");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 /*PROFILE IMAGE*/
 .profile-image {
