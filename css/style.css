@@ -774,6 +774,41 @@ section.resume-section .resume-item .resume-date {
     background-color: rgba(0, 0, 0, 0.6);
     /* Adjust the rgba color to change the overlay color */
   }
+  .awards-section {
+    text-align: center;
+    background-color: #f2f2f2; /* Background color for the entire section */
+    padding: 40px 0;
+  }
+
+  .award-item {
+    display: inline-block;
+    width: 200px; /* Width of each award box */
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff; /* Background color for the award box */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: all 0.3s ease; /* Animation effect */
+  }
+
+  .award-item:hover {
+    transform: scale(1.05); /* Scaling effect on hover */
+  }
+
+  .award-icon {
+    font-size: 50px; /* Size of the icon */
+    color: #333; /* Color of the icon */
+  }
+
+  .award-title {
+    font-size: 18px; /* Size of the award title */
+    font-weight: bold; /* Bold font for the title */
+    margin: 10px 0; /* Margin around the title */
+  }
+
+  .award-description {
+    font-size: 14px; /* Size of the description */
+    color: #666; /* Color of the description */
+  }
 
   #award-box {
     background-color: #333;
@@ -994,41 +1029,6 @@ section.resume-section .resume-item .resume-date {
     #award-box .award-content:after {
       left: -14%;
     }
-  }
-  .awards-section {
-    text-align: center;
-    background-color: #f2f2f2; /* Background color for the entire section */
-    padding: 40px 0;
-  }
-
-  .award-item {
-    display: inline-block;
-    width: 200px; /* Width of each award box */
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff; /* Background color for the award box */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
-    transition: all 0.3s ease; /* Animation effect */
-  }
-
-  .award-item:hover {
-    transform: scale(1.05); /* Scaling effect on hover */
-  }
-
-  .award-icon {
-    font-size: 50px; /* Size of the icon */
-    color: #333; /* Color of the icon */
-  }
-
-  .award-title {
-    font-size: 18px; /* Size of the award title */
-    font-weight: bold; /* Bold font for the title */
-    margin: 10px 0; /* Margin around the title */
-  }
-
-  .award-description {
-    font-size: 14px; /* Size of the description */
-    color: #666; /* Color of the description */
   }
 
   /*====================================================
