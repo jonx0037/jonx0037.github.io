@@ -711,46 +711,43 @@ section.resume-section .resume-item .resume-date {
                       SKILLS
 ======================================================*/
 #skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 3rem 0;
-    max-width: 100% !important;
-    width: 100% !important;
     background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #skills h3 {
+    font-size: 24px; /* Adjust the title size */
+    margin-bottom: 20px;
   }
 
   .skill-item {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center content horizontally */
     margin-bottom: 20px;
     padding: 10px;
     background: rgba(144, 144, 144, 0.78);
     color: #124171;
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center text */
   }
 
   .skill-item i {
-    margin-right: 15px;
+    margin-bottom: 15px; /* Space between icon and percentage */
   }
 
   .skill-percentage {
     font-size: 2.5em;
-    /* Adjust size as needed */
     color: #124171;
     font-weight: bold;
-    /* If you want it bold like h2 */
   }
 
   @media (min-width: 768px) {
-    #skills .p-3 {
-      text-align: left;
-    }
-  }
-
-  @media (max-width: 767px) {
-    #skills .p-3 {
-      text-align: center;
+    #skills .skill-item {
+      flex-direction: row; /* Horizontal layout on larger screens */
     }
   }
 
