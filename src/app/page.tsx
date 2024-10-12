@@ -134,7 +134,7 @@ export default function Home() {
               Send Email
             </a>
             <a
-              href="https://linkedin.com/in/jonathan-rocha"
+              href="https://linkedin.com/in/jonathan-rocha-atx/"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.secondary}
