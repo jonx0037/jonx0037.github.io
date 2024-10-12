@@ -147,14 +147,14 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://linkedin.com/in/jonathan-rocha"
+          href="https://linkedin.com/in/jonathan-rocha-atx/"
           target="_blank"
           rel="noopener noreferrer"
         >
           LinkedIn
         </a>
         <a
-          href="https://github.com/jonathanrocha00"
+          href="https://github.com/jonx0037/jonx0037.github.io"
           target="_blank"
           rel="noopener noreferrer"
         >
